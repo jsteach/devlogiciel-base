@@ -1,6 +1,9 @@
 # devlogiciel-base
 
-`git clone --recursive https://github.com/jsteach/raylib-base.git`
+Faite vous un nouveau dépôt git sur github en utilisant ce dernier comme template.
+
+Par la suite, faite pour votre dépôt git:
+`git clone --recursive https://github.com/nom-utilisateur/devlogiciel-base.git`
 
 ## To Build:
 Pour travailler sur ce projet vous devez ouvrir `vscode` au dossier du répertoire du repository.
@@ -15,11 +18,6 @@ Après avoir rouler script, vous pouvez cliquer sur `ctrl+shift+b` lorsque l'app
 
 Pour comprendre comment le build fonctionne vous pouvez aller lire le fichier `nob.c` et `.vscode/tasks.json`.
 
-Pour que la compilation fonctionne, vous devez modifier cette ligne dans `nob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.cpp`:
-
-```c
-#define LAB_NAME "entrypoint"
-```
 
 ## To Run/Debug:
 Pour débugger le code, pèser sur `F5` comme dans Visual Studio. Assurez-vous d'avoir installé l'extension c/c++:
